@@ -1,0 +1,37 @@
+.d-flex{
+    align-items: center;
+    justify-content: center;
+}
+.right-menu ul i{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #758283
+}
+.slider-captions h5{
+    color: #66AD47;
+    font-size: 3em;
+}
+.slider-captions p{
+    color: #758283;
+    text-align: justify;
+}
+.products-branding{
+    margin-top: 100px;
+}
+.products-branding img{
+    width: 100px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+.products-branding h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    color:#758283 ;
+}
+.products-branding p{
+    text-align: justify;
+    margin-top: 20px;
+    color: #758283;
+}
