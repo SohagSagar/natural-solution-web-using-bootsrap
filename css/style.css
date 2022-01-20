@@ -17,6 +17,8 @@
 }
 .products-branding{
     margin-top: 100px;
+    margin-bottom: 100px;
+    color: #8ebb7b;
 }
 .products-branding img{
     width: 100px;
@@ -34,4 +36,82 @@
     text-align: justify;
     margin-top: 20px;
     color: #758283;
+}
+.product-description{
+    display: flex;
+    justify-content: space-between;
+}
+.horaizental-des h5{
+    color: #66AD47;
+    font-family:'Dancing Script', cursive;
+    font-size: 2.5em;
+
+}
+.horaizental-des h2{
+    color: #758283;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-family: 'Acme', sans-serif;
+
+}
+.horaizental-des p{
+    color: #758283;
+    font-size: 1.05em;
+    text-align: justify;
+    
+    
+}
+.product-image img{
+    margin-left: 50px;
+
+}
+.product-description{
+    margin-top: -120px;
+}
+.button-icon button{
+    color: #66AD47;
+    width: 150px;
+    margin-top: 50px;
+}
+.product-image{
+    margin-bottom: 150px;
+}
+
+.review-section{
+    background-color: #f3f7f1;
+    height: 500px;
+}
+.customers-review{
+    margin-top: 100px;
+}
+.review-1,.review-2 p{
+    color: #758283;
+    text-align: justify;
+}
+.review-2 h4{
+    color: #758283;
+    margin-bottom: 20px;
+}
+.review-1 h4{
+    margin-bottom: 20px;
+}
+
+.customer-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.customer-image h3{
+    margin-right: 10px;
+}
+.customer-name h3{
+    font-size: 18px;
+    color: #535a5a;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+span{
+    font-size: 12px;
+    margin-top: 0;
 }
