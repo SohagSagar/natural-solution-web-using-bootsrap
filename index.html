@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- css animate library -->
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/aos.css">
     <!-- google fonts links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -106,9 +108,17 @@
                 </div>
               </div>
 
-              <!-- <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div> -->
+              <div class="carousel-item">
+                <div class="slider-3 d-flex justify-content-between flex-wrap">
+                  <div class="slider-image">
+                    <img src="images/slider-images/test-3.png" width="400" alt="">
+                  </div>
+                  <div class="buy-now-options d-flex flex-column">
+                    <h2 class="animate__animated animate__fadeInLeft animate__delay-1s">feels good inside and out</h2>
+                    <button class="btn btn-outline-success animate__animated animate__fadeInRight animate__delay-1s">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
             </div> 
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -125,15 +135,15 @@
 
        <div class="container products-branding flex-row d-flex justify-content-between align-items-stretch flex-wrap">
 
-        <div class="card shadow p-3 mb-5 bg-body rounded col-md-6 col-sm-12" style="width: 20rem;">
+        <div data-aos="fade-right" data-aos-delay="300" class="card shadow p-3 mb-5 bg-body rounded col-md-6 col-sm-12" style="width: 20rem;">
           <img src="images/brand-images/brand-image-1.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <div  class="card-body ">
             <h3>Availability</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consectetur mollitia perspiciatis perferendis dolore, fugit quaerat natus asperiores inventore atque.</p>
           </div>
         </div>
 
-        <div class="card shadow p-3 mb-5 bg-body rounded col-md-6 col-sm-12" style="width: 20rem;">
+        <div data-aos="fade-up" data-aos-delay="300" class="card shadow p-3 mb-5 bg-body rounded col-md-6 col-sm-12" style="width: 20rem;">
           <img src="images/brand-images/brand-image-2.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>Natural Process</h3>
@@ -141,9 +151,9 @@
           </div>
         </div>
 
-        <div class="card shadow p-3 mb-5 bg-body rounded col-md-6 col-sm-12" style="width: 20rem;">
+        <div data-aos="fade-left" data-aos-delay="300" class="card shadow p-3 mb-5 bg-body rounded col-md-6 col-sm-12" style="width: 20rem;">
           <img src="images/brand-images/brand-image-1.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <div  class="card-body">
             <h3>Availability</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consectetur mollitia perspiciatis perferendis dolore, fugit quaerat natus asperiores inventore atque.</p>
           </div>
@@ -352,7 +362,7 @@
       <!-- products shipping info -->
       <section class="shipping-section ">
           <div class="shipping-info container" >
-            <h1 class="animate__animated animate__bounceInDown animate__delay-1s">35</h1>
+            <div data-aos="fade-up" data-aos-delay="300"><h1>35</h1></div>
             <h3>Free shipping to every corner <br> of the world </h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga, iure minus odio ullam aspernatur aliquam commodi molestiae asperiores vitae consequuntur autem temporibus maiores, corporis quas assumenda fugiat quasi iste harum! Ullam laudantium eos suscipit eius, atque nihil natus nostrum.</p>
           </div>
@@ -364,7 +374,7 @@
 
           <div class="left-items col-lg-5 border-end">
               <img src="images/logo/logo.png" width="200" alt="">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur illum corrupti, ipsum quidem vel earum voluptate quos, alias.</p>
+              <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur illum corrupti, ipsum quidem vel earum voluptate quos, alias.</p>
 
               <div class="d-flex justify-content-start subscribe">
                 <input class="form-control w-50" type="text" placeholder="Your Email Address">
@@ -373,7 +383,7 @@
               
           </div>
 
-          <div class="right-items col-lg-7 ">
+          <div class="right-items col-lg-7 ps-5">
               <div class="row">
                   <div class="contract col-lg-6 ">
                     <h3>Contract</h3>
@@ -462,6 +472,11 @@
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
       return new bootstrap.Tooltip(tooltipTriggerEl)})
 
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(); 
     </script>
 
 
