@@ -10,6 +10,7 @@
     font-size: 20px;
     color: #758283
 }
+
 .nav-item a:hover{
     color: #548b3c !important;
     border-bottom: 2px solid #548b3c;
