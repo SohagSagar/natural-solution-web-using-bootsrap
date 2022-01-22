@@ -115,3 +115,90 @@ span{
     font-size: 12px;
     margin-top: 0;
 }
+.review-1{
+    margin-top: 30px;
+}
+.all-reviews{
+    background-color: #f2f8ef;
+    margin-bottom: 100px;
+}
+.customer-info{
+    margin-bottom: 30px;
+}
+.review-1 h5{
+    color: #8ebb7b;
+    margin-bottom: 20px;
+}
+.customer-reviews{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.brand-info{
+    margin-bottom: 150px;
+}
+.brand-des h3{
+    color: #758283;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: 'Acme', sans-serif;
+}
+.brand-des p{
+    color: #758283;
+    font-size: 1.05em;
+    text-align: justify;
+}
+.button-icon button{
+    margin-top: 10px;
+}
+
+.shipping-section{
+    background-color: #f1f6f7;
+    margin-bottom: 100px;
+    min-height: 600px;
+}
+.shipping-info {
+    text-align: center;
+}
+.shipping-info h1{
+    color: #8ebb7b;
+    font-size: 300px;
+    font-family: 'Acme', sans-serif;
+}
+.shipping-info h3{
+    color: #758283;
+    font-size: 2em;
+    margin-bottom: 30px;
+    
+}
+.shipping-info p{
+    color: #758283;
+    
+}
+.button{
+    width: 100px;
+    margin-left: 10px;
+    
+}
+.contract h3{
+    color:  #8ebb7b;
+    margin-bottom: 25px;
+}
+.category h3{
+    color:  #8ebb7b;
+    margin-bottom: 25px;
+}
+.contract i,p{
+    color:  #758283;
+}
+.contract-info{
+    margin-bottom: 10px;
+}
+.category i{
+    color: #758283;
+}
+.social-links i{
+    font-size: 18px;
+    color: #758283;
+}
+
