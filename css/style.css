@@ -1,3 +1,6 @@
+:root {
+    --animate-delay: 0.5s;
+  }
 .d-flex{
     align-items: center;
     justify-content: center;
@@ -7,13 +10,22 @@
     font-size: 20px;
     color: #758283
 }
-.slider-captions h5{
-    color: #66AD47;
-    font-size: 3em;
+.slider-area{
+    background-color: #d7e0d3;
+    min-height: 500px;
+    
 }
-.slider-captions p{
-    color: #758283;
-    text-align: justify;
+.slider-1{
+    margin-top: 50px;
+}
+.slider-2{
+    padding-top: 120px;
+}
+.buy-now-options h2{
+    color: #548b3c;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: 'Acme', sans-serif;
 }
 .products-branding{
     margin-top: 100px;
@@ -197,6 +209,8 @@ span{
 .category i{
     color: #758283;
 }
+
+
 .social-links i{
     font-size: 18px;
     color: #758283;
