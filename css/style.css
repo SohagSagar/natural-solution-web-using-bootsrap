@@ -201,4 +201,20 @@ span{
     font-size: 18px;
     color: #758283;
 }
-
+footer{
+    margin-bottom: 20px;
+}
+.fa-facebook:hover{
+    color: #207398;
+}
+.fa-instagram:hover{
+    color: #DE4839;
+}
+.fa-linkedin:hover{
+    color:#1B98F5;
+}
+.fa-youtube:hover{
+    color:#B4161B;
+}.fa-twitter:hover{
+    color:#1B98F5;
+}
